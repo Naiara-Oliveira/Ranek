@@ -7,7 +7,7 @@
         <input type="email" id="email" name="email" v-model="email">
 
         <label for="senha">Senha</label>
-        <input type="current-password" id="senha" name="senha" v-model="senha">
+        <input type="password" id="senha" name="senha" v-model="senha">
 
         <label for="cep">Cep</label>
         <input type="text" id="cep" name="cep" v-model="cep" @keyup="preencherCep">
@@ -53,13 +53,13 @@ export default {
     methods: {
         preencherCep() {
             const cep = this.cep.replace(/\D/g, '');
-            if(cep.legth === 8){
+            if(cep.length === 8){
                 getCep(cep).then(response =>{
                     this.rua = response.data.logradouro;
                     this.bairro = response.data.bairro;
                     this.cidade = response.data.localidade;
                     this.estado = response.data.uf;
-                    
+
                 })
             }
         }
