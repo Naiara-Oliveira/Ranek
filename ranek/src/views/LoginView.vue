@@ -48,13 +48,15 @@ h1 {
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
-    color: #87f;
+    color: #fff;
+  
 }
 
 .login {
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
+
 
 }
 
@@ -68,12 +70,13 @@ form {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
-    
+   
 }
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
+   
 }
 
 .perdeu {

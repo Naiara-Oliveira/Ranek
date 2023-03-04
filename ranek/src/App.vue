@@ -74,6 +74,7 @@ img {
   border: none;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   cursor: pointer;
+  
 }
 
 .btn:hover {

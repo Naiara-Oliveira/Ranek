@@ -12,6 +12,19 @@ export const api = {
   post(endpoint, body) {
     return axiosInstance.post(endpoint, body);
   },
+  put(endpoint, body) {
+    return axiosInstance.put(endpoint, body);
+  },
+  delete(endpoint) {
+    return axiosInstance.delete(endpoint);
+  },
+  login(body){
+
+    return axios.post("http://localhost:3000/login", body)
+  },
+  validateToken(){
+    return axios.post("http://localhost:3000/validateToken")
+  }
 };
 
 export function getCep(cep) {

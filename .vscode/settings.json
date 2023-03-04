@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
+        "adicionar",
+        "Compras",
         "Criar",
+        "deletar",
         "descricao",
+        "Editar",
         "fotos",
         "perdeu",
         "preco",
@@ -10,6 +14,7 @@
         "Senha",
         "titulo",
         "USUARIO",
+        "vendas",
         "vuex"
     ]
 }
